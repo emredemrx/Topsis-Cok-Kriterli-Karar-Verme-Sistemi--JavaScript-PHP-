@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+:root {
+  --red-color: rgb(197, 0, 0);
+  --yellow-color: rgb(218, 165, 21);
+  --blue-color: rgb(32, 155, 255);
+  --lightblue-color: rgb(10, 199, 189);
+  --purpel-color: rgb(221, 27, 228);
+  --white-color:white; }
+
+.red-color {
+  color: var(--red-color); }
+
+.yellow-color {
+  color: var(--yellow-color); }
+
+.blue-color {
+  color: var(--blue-color); }
+
+.lightblue-color {
+  color: var(--lightblue-color); }
+
+.purpel-color {
+  color: var(--purpel-color); }
+
+.white-color {
+  color: var(--white-color); }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.border {
+  border: 1px solid red; }
+
+input {
+  outline: 0; }
+
+.addedContainer .topsisKriterler p {
+  font-size: 12px;
+  color: #696969;
+  margin: 0;
+  padding: 0; }
+.addedContainer .topsisKriterler .faydamaliyet fieldset {
+  padding: 0;
+  margin: 0; }
+  .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton {
+    height: 54px;
+    background-color: #515151;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton .radio-text {
+      color: var(--white-color); }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton input[type="radio"].toggle {
+      display: inline-block;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 55px;
+      height: 28px;
+      background-color: #fafafa;
+      position: relative;
+      border-radius: 30px;
+      box-shadow: none;
+      transition: all 0.2s ease-in-out; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton input[type="radio"].toggle:hover:after {
+        background-color: #c7c7c7; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton input[type="radio"].toggle:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-color: #aeaeae;
+        top: 2px;
+        left: 2px;
+        border-radius: 50%;
+        transition: all 0.2s ease-in-out; }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton input[type="radio"]:checked.toggle {
+      box-shadow: inset 0 0 0 15px #158ec6; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .faydaButton input[type="radio"]:checked.toggle:after {
+        left: 29px;
+        background-color: #fff; }
+  .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton {
+    height: 54px;
+    background-color: #515151;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*Toggle Specific styles*/ }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton .radio-text {
+      color: var(--white-color); }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton input[type="radio"].toggle {
+      display: inline-block;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 55px;
+      height: 28px;
+      background-color: #fafafa;
+      position: relative;
+      border-radius: 30px;
+      box-shadow: none;
+      transition: all 0.2s ease-in-out; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton input[type="radio"].toggle:hover:after {
+        background-color: #c7c7c7; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton input[type="radio"].toggle:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-color: #aeaeae;
+        top: 2px;
+        left: 2px;
+        border-radius: 50%;
+        transition: all 0.2s ease-in-out; }
+    .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton input[type="radio"]:checked.toggle {
+      box-shadow: inset 0 0 0 15px #158ec6; }
+      .addedContainer .topsisKriterler .faydamaliyet fieldset .maliyetButton input[type="radio"]:checked.toggle:after {
+        left: 29px;
+        background-color: #fff; }
+.addedContainer .topsisAlternatifler p {
+  font-size: 12px;
+  color: #696969;
+  margin: 0;
+  padding: 0; }
+.addedContainer .calculateaddCol .calculateBTN {
+  width: 100%;
+  height: 54px;
+  background-color: #00528d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 0;
+  color: var(--white-color);
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms; }
+.addedContainer .calculateaddCol .calculateBTN:hover {
+  background-color: #33A9FF; }
+
+.topsisDataAdded .dataInput {
+  width: 100%;
+  border: 0;
+  height: 55px;
+  background-color: #E4E4E4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 0;
+  padding: 0 0 0 15px; }
+.topsisDataAdded .ListTitle span {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #696969; }
+.topsisDataAdded .addCol .addBTN {
+  width: 100%;
+  height: 54px;
+  background-color: #33A9FF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 0;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms; }
+.topsisDataAdded .addCol .addBTN:hover {
+  background-color: #036ab4; }
+.topsisDataAdded .added {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 37px;
+  background-color: #EEEEEE;
+  margin-top: 5px; }
+  .topsisDataAdded .added:first-child {
+    margin-top: 0; }
+  .topsisDataAdded .added .added-data {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .topsisDataAdded .added .added-data span {
+      font-family: 'Roboto', sans-serif;
+      color: #696969; }
+    .topsisDataAdded .added .added-data i {
+      color: #757575;
+      font-size: 25px;
+      transition: all 300ms;
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms; }
+    .topsisDataAdded .added .added-data i:hover {
+      color: #333333; }
+    .topsisDataAdded .added .added-data i:hover > .added {
+      color: #333333; }
+
+/*# sourceMappingURL=topsisDataAdded.css.map */

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+:root {
+  --red-color: rgb(197, 0, 0);
+  --yellow-color: rgb(218, 165, 21);
+  --blue-color: rgb(32, 155, 255);
+  --lightblue-color: rgb(10, 199, 189);
+  --purpel-color: rgb(221, 27, 228);
+  --white-color:white; }
+
+.red-color {
+  color: var(--red-color); }
+
+.yellow-color {
+  color: var(--yellow-color); }
+
+.blue-color {
+  color: var(--blue-color); }
+
+.lightblue-color {
+  color: var(--lightblue-color); }
+
+.purpel-color {
+  color: var(--purpel-color); }
+
+.white-color {
+  color: var(--white-color); }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.border {
+  border: 1px solid red; }
+
+input {
+  outline: 0; }
+
+/*# sourceMappingURL=genel.css.map */

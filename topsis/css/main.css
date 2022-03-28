@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+:root {
+  --red-color: rgb(197, 0, 0);
+  --yellow-color: rgb(218, 165, 21);
+  --blue-color: rgb(32, 155, 255);
+  --lightblue-color: rgb(10, 199, 189);
+  --purpel-color: rgb(221, 27, 228);
+  --white-color:white; }
+
+.red-color {
+  color: var(--red-color); }
+
+.yellow-color {
+  color: var(--yellow-color); }
+
+.blue-color {
+  color: var(--blue-color); }
+
+.lightblue-color {
+  color: var(--lightblue-color); }
+
+.purpel-color {
+  color: var(--purpel-color); }
+
+.white-color {
+  color: var(--white-color); }
+
+a {
+  text-decoration: none; }
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.border {
+  border: 1px solid red; }
+
+input {
+  outline: 0; }
+
+header {
+  height: 65px;
+  background-color: black;
+  display: flex;
+  align-items: center; }
+  header .navList {
+    height: 65px;
+    display: flex;
+    align-items: center; }
+    header .navList .navbuttons {
+      width: 100%; }
+      header .navList .navbuttons .navList2 {
+        display: flex;
+        justify-content: flex-end; }
+        header .navList .navbuttons .navList2 .topsis {
+          height: 65px;
+          padding: 0 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--white-color);
+          font-weight: bold;
+          transition: background-color 0.5s ease-out;
+          background-position: top;
+          -webkit-transition: background-color 0.5s ease-out;
+          -moz-transition: background-color 0.5s ease-out;
+          -ms-transition: background-color 0.5s ease-out;
+          -o-transition: background-color 0.5s ease-out; }
+        header .navList .navbuttons .navList2 .topsis:hover {
+          background: #c400ff;
+          background-position: bottom; }
+        header .navList .navbuttons .navList2 .agirlik {
+          height: 65px;
+          padding: 0 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--white-color);
+          font-weight: bold;
+          transition: background-color 0.5s ease-out;
+          -webkit-transition: background-color 0.5s ease-out;
+          -moz-transition: background-color 0.5s ease-out;
+          -ms-transition: background-color 0.5s ease-out;
+          -o-transition: background-color 0.5s ease-out; }
+        header .navList .navbuttons .navList2 .agirlik:hover {
+          background: #0074ff;
+          background-position: bottom; }
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+
+footer {
+  height: 65px;
+  background-color: black;
+  display: flex;
+  align-items: center; }
+  footer .navList {
+    height: 65px;
+    display: flex;
+    align-items: center; }
+
+/*# sourceMappingURL=main.css.map */

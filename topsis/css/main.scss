@@ -1,0 +1,75 @@
+@import "genel";
+
+header{
+    height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    .navList{
+        height: 65px;
+        display: flex;
+        align-items: center;
+        .navbuttons{
+            width: 100%;
+            .navList2{
+                display: flex;
+                justify-content: flex-end;
+                .topsis{
+                    height: 65px;
+                    padding: 0 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--white-color);
+                    font-weight: bold;
+                    transition: background-color 0.5s ease-out;
+                    background-position: top;
+                    -webkit-transition: background-color 0.5s ease-out;
+                    -moz-transition: background-color 0.5s ease-out;
+                    -ms-transition: background-color 0.5s ease-out;
+                    -o-transition: background-color 0.5s ease-out;
+                }
+                .topsis:hover{
+                    background: rgb(196,0,255);
+                    background-position: bottom;
+                    // background: linear-gradient(180deg, rgba(196,0,255,1) 0%, rgba(0,0,0,0.47100847174807425) 100%); 
+                }
+                .agirlik{
+                    height: 65px;
+                    padding: 0 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--white-color);
+                    font-weight: bold;
+                    transition: background-color 0.5s ease-out;
+                    -webkit-transition: background-color 0.5s ease-out;
+                    -moz-transition: background-color 0.5s ease-out;
+                    -ms-transition: background-color 0.5s ease-out;
+                    -o-transition: background-color 0.5s ease-out;
+                }
+                .agirlik:hover{
+                    background: rgb(0,116,255);
+                    background-position: bottom;
+                    //  background: linear-gradient(180deg, rgba(0,116,255,1) 0%, rgba(0,0,0,0.47100847174807425) 100%); 
+                }
+            }
+        }
+    }
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+footer{
+    height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    .navList{
+        height: 65px;
+        display: flex;
+        align-items: center;
+    }
+}
