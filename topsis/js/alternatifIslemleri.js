@@ -6,7 +6,7 @@ function AlternatifEkle() {
     var AlternatifDegeri = document.querySelector('.AlternatifInput').value;
     if (AlternatifDegeri != "") {
         Alternatifler.push(AlternatifDegeri);
-        alertify.success(AlternatifDegeri +" Adlı Aleternatif Eklendi ");
+        alertify.success(AlternatifDegeri +" Adlı Alternatif Eklendi");
         alternatifYazdir();
         
         document.querySelector('.AlternatifInput').value="";
