@@ -1,5 +1,9 @@
 # Topsis-Cok-Kriterli-Karar-Verme-Sistemi--JavaScript-PHP-
 Topsis-Cok Kriterli Karar Verme Sistemi (JavaScript-PHP)
+```
+Karar destek sistemleri dersinde Excel olarak hazırladığım TOPSİS yöntemini,
+JavaScript ve PHP ile web projesi haline getirdim.
+```
 ## TOPSIS Nedir?
 Hwang ve Yoon tarafından 1980 yılında geliştirilmiş ve bir çok alanda uygulama imkanı
 bulmuş bir ÇÖKV yöntemidir. Alternatiflerin (karar seçeneklerinin) değerlendirilmesi pozitif
