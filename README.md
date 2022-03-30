@@ -26,4 +26,4 @@ alanları bulunmaktadır.
 ![7](https://user-images.githubusercontent.com/37083519/160444441-4c5b8492-1760-4b72-a119-ea0ebed913b5.JPG)
 
 ## Projenin Tasarımı
-![1](https://user-images.githubusercontent.com/37083519/160439683-ccab0c62-ee34-4717-96e5-690c9c172890.JPG)
+![dddddddddddd](https://user-images.githubusercontent.com/37083519/160856770-32e0aaba-6f61-42b6-b509-1647f417b3c5.JPG)
